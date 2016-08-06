@@ -1,0 +1,29 @@
+{
+  "boss": true,
+  "bitwise": true,
+  "camelcase": true,
+  "curly": true,
+  "eqnull": true,
+  "eqeqeq": true,
+  "expr": true,
+  "immed": true,
+  "indent": 4,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "node": true,
+  "quotmark": "single",
+  "regexp": true,
+  "smarttabs": true,
+  "sub": true,
+  "trailing": true,
+  "undef": true,
+  "globals": {
+    "after": true,
+    "afterEach": true,
+    "before": true,
+    "beforeEach": true,
+    "describe": true,
+    "it": true
+  }
+}
