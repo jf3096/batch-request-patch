@@ -2,7 +2,7 @@ Batch Request Patch
 ===================
 
 ## Introduction
-
+Batch Request is lightweight connect/express middleware for Node.js which allows clients to send multiple requests to a server running Node.js in batch.
 This library is derived from [batch request](http://batch-request.socialradar.com). Due to project needs, 
 I need to further process data after batch response. Therefore I patched it to fulfill following needs:
 
@@ -25,12 +25,11 @@ You can do as followings:
 
     var batch = require('batch-request')();
 
-    // Javascript/Typescript way: Use Batch Request as middleware on an endpoint you want to service batch requests
+    // Javascript/Typescript way. Simple case.
     app.post('/batch', batch);
 
 
 Optionally included 'batch.validate' middleware to check the validity of your batch request, as well as further process return data as you need:
-
     // Include the batch.validate middleware before batch middleware
     app.post('/batch', batch.validate, batch, (req,res)=>{
         // proxy return data will be passed into the req.batch object
