@@ -18,6 +18,8 @@ Before you use this library, please keep in mind that you have used [body-parser
 The official batch request documentation is somehow did not document it. 
 However, it is mentioned in its source code batch-request/lib/batch-request.js line 48.
 
+If you desire to use Typescript, just type <strong>tsd link</strong> in your command.
+
 ## What Now
 
 You can do as followings:
