@@ -30,6 +30,7 @@ You can do as followings:
 
 
 Optionally included 'batch.validate' middleware to check the validity of your batch request, as well as further process return data as you need:
+    
     // Include the batch.validate middleware before batch middleware
     app.post('/batch', batch.validate, batch, (req,res)=>{
         // proxy return data will be passed into the req.batch object
