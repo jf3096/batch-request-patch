@@ -1,70 +1,18 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "batch-request",
-        "scope": null,
-        "escapedName": "batch-request",
-        "name": "batch-request",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "C:\\Users\\allen\\WebstormProjects\\untitled53"
-    ]
-  ],
-  "_cnpm_publish_time": 1464988636370,
-  "_from": "batch-request@latest",
-  "_id": "batch-request@0.1.4",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/batch-request",
-  "_nodeVersion": "5.9.1",
-  "_npmOperationalInternal": {
-    "host": "packages-16-east.internal.npmjs.com",
-    "tmp": "tmp/batch-request-0.1.4.tgz_1464988634878_0.8844760961364955"
+  "name": "batch-request-patch",
+  "version": "1.0.0",
+  "description": "Batch Request - Utility library to enable a server to handle batch requests and typescript friendly",
+  "main": "lib/batch-request.js",
+  "directories": {
+    "test": "test"
   },
-  "_npmUser": {
-    "name": "victorquinn",
-    "email": "mail@victorquinn.com"
+  "scripts": {
+    "test": "grunt test"
   },
-  "_npmVersion": "3.7.3",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "batch-request",
-    "scope": null,
-    "escapedName": "batch-request",
-    "name": "batch-request",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jf3096/batch-request-patch.git"
   },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "http://registry.npm.taobao.org/batch-request/download/batch-request-0.1.4.tgz",
-  "_shasum": "1a57d20f703e2589345e00eb50459421a6f18759",
-  "_shrinkwrap": null,
-  "_spec": "batch-request",
-  "_where": "C:\\Users\\allen\\WebstormProjects\\untitled53",
-  "author": {
-    "name": "Victor Quinn",
-    "email": "mail@victorquinn.com"
-  },
-  "bugs": {
-    "url": "https://github.com/socialradar/batch-request/issues"
-  },
-  "dependencies": {
-    "bluebird": "^3.4.0",
-    "chance": "^1.0.3",
-    "es6-template-strings": "^2.0.0",
-    "lodash": "~2.3.0",
-    "methods": "^1.1.2",
-    "request": "^2.72.0",
-    "request-promise": "^3.0.0",
-    "validator": "^5.3.0"
-  },
-  "description": "Batch Request - Utility library to enable a server to handle batch requests",
   "devDependencies": {
     "chai": "^3.5.0",
     "chance": "~0.6.0",
@@ -78,39 +26,31 @@
     "mocha": "^2.5.3",
     "supertest": "^1.2.0"
   },
-  "directories": {},
-  "dist": {
-    "shasum": "1a57d20f703e2589345e00eb50459421a6f18759",
-    "size": 22853,
-    "noattachment": false,
-    "tarball": "http://registry.npm.taobao.org/batch-request/download/batch-request-0.1.4.tgz"
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "chance": "^1.0.3",
+    "es6-template-strings": "^2.0.0",
+    "lodash": "~2.3.0",
+    "methods": "^1.1.2",
+    "request": "^2.72.0",
+    "request-promise": "^3.0.0",
+    "validator": "^5.3.0"
   },
-  "gitHead": "1ec3eec69703457254965677d6912f6176e6899b",
-  "homepage": "http://batch-request.socialradar.com",
   "keywords": [
     "batch",
     "request",
-    "http",
-    "utility"
+    "typescript batch",
+    "mutifetch",
+    "mutiple fetch",
+    "combine request"
   ],
-  "license": "ISC",
-  "main": "lib/batch-request.js",
-  "maintainers": [
-    {
-      "name": "victorquinn",
-      "email": "mail@victorquinn.com"
-    }
-  ],
-  "name": "batch-request",
-  "optionalDependencies": {},
-  "publish_time": 1464988636370,
-  "readme": "ERROR: No README data found!",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/socialradar/batch-request.git"
+  "author": {
+    "name": "Ailun She",
+    "email": "529360897@qq.com"
   },
-  "scripts": {
-    "test": "grunt test"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jf3096/batch-request-patch/issues"
   },
-  "version": "0.1.4"
+  "homepage": "https://github.com/jf3096/batch-request-patch#readme"
 }
