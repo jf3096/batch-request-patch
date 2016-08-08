@@ -18,19 +18,20 @@ Before you use this library, please keep in mind that you have used [body-parser
 The official batch request documentation is somehow did not document it. 
 However, it is mentioned in its source code batch-request/lib/batch-request.js line 48.
 
-
 ## What Now
 
 You can do as followings:
 
+```bash
     var batch = require('batch-request')();
 
     // Javascript/Typescript way. Simple case.
     app.post('/batch', batch);
-
+```
 
 Optionally included 'batch.validate' middleware to check the validity of your batch request, as well as further process return data as you need:
     
+```bash
     // Include the batch.validate middleware before batch middleware
     app.post('/batch', batch.validate, batch, (req,res)=>{
         // proxy return data will be passed into the req.batch object
@@ -39,5 +40,7 @@ Optionally included 'batch.validate' middleware to check the validity of your ba
     
     //Typescript way. Recommended to write in this way:
     batchRouter.post('/batch', batch.validate, batch, (req: IBatchRequest, res: express.Response)=> {
+        //do whatever you want wih req.batch
         res.json(req.batch);
     });
+```
