@@ -1,5 +1,5 @@
 // Source: http://batch-request.socialradar.com/
-declare module 'batch-request' {
+declare module 'batch-request-patch' {
     import {RequestHandler} from 'express';
     import * as express from 'express';
 
