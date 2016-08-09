@@ -41,6 +41,13 @@ declare module 'batch-request-patch' {
     var e: IBatch;
 
     namespace e {
+
+        export interface IBatchItem<B> {
+            body: B;
+            headers: Object;
+            statusCode: number;
+        }
+
         export interface IBatchRequest extends express.Request {
             batch: Object;
         }

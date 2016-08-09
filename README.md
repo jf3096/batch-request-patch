@@ -7,7 +7,7 @@ This library is derived from [batch request](http://batch-request.socialradar.co
 I need to further process data after batch response. Therefore I patched it to fulfill following needs:
 
 1. I need it to have a typescript interface for typescript support.
-2. I need to further porcess data such as sign it for security purpose, 
+2. I need to further process data such as sign it for security purpose, 
 hash it to ensure data integrity as well as help for my own caching infrastructure layer.
 
 Looking for [the Koa version of this module](https://github.com/socialradar/koa-batch)?
