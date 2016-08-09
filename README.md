@@ -25,7 +25,7 @@ If you desire to use Typescript, just type <strong>tsd link</strong> in your com
 You can do as followings:
 
 ```bash
-    var batch = require('batch-request')();
+    var batch = require('batch-request-patch')();
 
     // Javascript/Typescript way. Simple case.
     app.post('/batch', batch);
