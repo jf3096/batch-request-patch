@@ -1,4 +1,7 @@
 // Source: http://batch-request.socialradar.com/
+
+import 'batch-request-patch';
+
 declare module 'batch-request-patch' {
     import {RequestHandler} from 'express';
     import * as express from 'express';
@@ -45,3 +48,4 @@ declare module 'batch-request-patch' {
 
     export =  e;
 }
+
