@@ -44,7 +44,7 @@ declare module 'batch-request-patch' {
 
         export interface IBatchItem<B> {
             body: B;
-            headers: Object;
+            headers: { [key: string]: string; };
             statusCode: number;
         }
 
