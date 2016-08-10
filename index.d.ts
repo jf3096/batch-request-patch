@@ -28,6 +28,8 @@ declare module 'batch-request-patch' {
          * @default null
          */
         allowedHosts: string[];
+
+        targetData: {[key: string]: Object};
     }
 
     interface IBatchRequestHandler extends RequestHandler {
