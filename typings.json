@@ -1,4 +1,8 @@
 {
+  "name": "batch-request-patch",
+  "main": "index.d.ts",
+  "homepage": "https://github.com/jf3096/batch-request-patch#readme",
+  "version": "1.0.10",
   "globalDependencies": {
     "express": "registry:dt/express#4.0.0+20160708185218"
   }
